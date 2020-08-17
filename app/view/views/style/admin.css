@@ -1,0 +1,39 @@
+.controll{
+    padding-top: 60px;
+}
+.wrappper{
+    display: flex;
+}
+.controll-container{
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.filter-form{
+    flex-direction: column;
+}
+.filter-form div{
+    padding-top: 5px;
+}
+.tbl-results{
+    padding-top: 10px;
+}
+.thead-dark th{
+    cursor: default;
+}
+.thead-dark th{
+    transition: 1s;
+    cursor: default;
+}
+.thead-dark th:hover{
+    color: lightblue;
+}
+.table td{
+    cursor: default;
+}
+.table tbody tr{
+    transition: 1s;
+}
+.table tbody tr:hover{
+    background-color: lightblue;
+}
